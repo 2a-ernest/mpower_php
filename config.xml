@@ -32,31 +32,31 @@
     </item>
      <item id="mpower_master_key">
       <type required="true">input</type>
-      <default_value>35e6274f-d0f2-4ed2-ae1c-2a65beb969a1</default_value>
+      <default_value></default_value>
     </item>
     <item id="mpower_public_key">
       <type required="true">input</type>
-      <default_value>live_public_UhAl3htoBiPCqxg8UncgTFkdrms</default_value>
+      <default_value></default_value>
     </item>
     <item id="mpower_private_key">
       <type required="true">password</type>
-      <default_value>live_private_4l0Km9tg0aGnvj4ZW3CYRXlmc5E</default_value>
+      <default_value></default_value>
     </item>
      <item id="mpower_live_token">
       <type required="true">input</type>
-      <default_value>865e46eb6375781ff907</default_value>
+      <default_value></default_value>
     </item>
     <item id="mpower_test_public_key">
       <type required="true">input</type>
-      <default_value>test_public_cLb_CmpfijYfIayZGuifw9L8cVg</default_value>
+      <default_value></default_value>
     </item>
     <item id="mpower_test_private_key">
       <type required="true">password</type>
-      <default_value>test_private_CUjRmKW4sUM6kfBBUttPaO3F53U</default_value>
+      <default_value></default_value>
     </item>
      <item id="mpower_test_token">
       <type required="true">input</type>
-      <default_value>8d7359a5909f600fe54a</default_value>
+      <default_value></default_value>
     </item>
     <item id="mpower_test_mode">
       <type>checkbox</type>
