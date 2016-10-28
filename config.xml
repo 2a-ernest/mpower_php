@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension>
+  <id>mpower</id>
+  <version>1.0.0</version>
+  <type>payment</type>
+  <category>payment</category>
+  <cartversions>
+    <item>1.2</item>
+  </cartversions>
+  <priority>10</priority>
+  <dependencies></dependencies>
+  <settings>
+    <item id="mpower_status">
+      <type>checkbox</type>
+      <default_value>0</default_value>
+    </item>
+    <item id="mpower_store_name">
+      <type required="true">input</type>
+      <default_value></default_value>
+    </item>
+   <item id="mpower_store_tag_line">
+      <type required="false">input</type>
+      <default_value></default_value>
+    </item>
+     <item id="mpower_store_phone_number">
+      <type required="true">input</type>
+      <default_value></default_value>
+    </item>
+    <item id="mpower_store_postal_address">
+      <type required="required">input</type>
+      <default_value></default_value>
+    </item>
+     <item id="mpower_master_key">
+      <type required="true">input</type>
+      <default_value>35e6274f-d0f2-4ed2-ae1c-2a65beb969a1</default_value>
+    </item>
+    <item id="mpower_public_key">
+      <type required="true">input</type>
+      <default_value>live_public_UhAl3htoBiPCqxg8UncgTFkdrms</default_value>
+    </item>
+    <item id="mpower_private_key">
+      <type required="true">password</type>
+      <default_value>live_private_4l0Km9tg0aGnvj4ZW3CYRXlmc5E</default_value>
+    </item>
+     <item id="mpower_live_token">
+      <type required="true">input</type>
+      <default_value>865e46eb6375781ff907</default_value>
+    </item>
+    <item id="mpower_test_public_key">
+      <type required="true">input</type>
+      <default_value>test_public_cLb_CmpfijYfIayZGuifw9L8cVg</default_value>
+    </item>
+    <item id="mpower_test_private_key">
+      <type required="true">password</type>
+      <default_value>test_private_CUjRmKW4sUM6kfBBUttPaO3F53U</default_value>
+    </item>
+     <item id="mpower_test_token">
+      <type required="true">input</type>
+      <default_value>8d7359a5909f600fe54a</default_value>
+    </item>
+    <item id="mpower_test_mode">
+      <type>checkbox</type>
+      <default_value>1</default_value>
+    </item>
+    <item id="mpower_order_status_id">
+      <type>selectbox</type>
+      <variants>
+        <data_source>
+             
+          <model_rt>localisation/order_status</model_rt>
+             
+          <method>getOrderStatuses</method>
+        </data_source>
+        <fields>
+          <field>order_status_id</field>
+          <field>name</field>
+        </fields>
+      </variants>
+      <default_value>2</default_value>
+    </item>
+    <item id="mpower_location_id">
+      <type>selectbox</type>
+      <variants>
+        <item>0</item>
+        <data_source>
+             
+          <model_rt>localisation/location</model_rt>
+             
+          <method>getLocations</method>
+        </data_source>
+        <fields>
+          <field>location_id</field>
+          <field>name</field>
+        </fields>
+      </variants>
+    </item>
+    <item id="mpower_redirect_payment">
+      <type>hidden</type>
+      <default_value>true</default_value>
+    </item>
+  </settings>
+  <install>
+    <sql></sql>
+    <trigger></trigger>
+  </install>
+  <uninstall>
+    <sql></sql>
+    <trigger></trigger>
+  </uninstall>
+</extension>

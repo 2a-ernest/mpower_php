@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions>
+  <definition>
+    <key>mpower_name</key>
+    <value><![CDATA[Mpower payment]]></value>
+  </definition>
+  <definition>
+    <key>mpower_store_name</key>
+    <value><![CDATA[Store name]]></value>
+  </definition>
+  <definition>
+    <key>mpower_store_tag_line</key>
+    <value><![CDATA[Store tagline]]></value>
+  </definition>
+  <definition>
+    <key>mpower_store_phone_number</key>
+    <value><![CDATA[Store phone]]></value>
+  </definition>
+  <definition>
+    <key>mpower_store_postal_address</key>
+    <value><![CDATA[Store postal address]]></value>
+  </definition>
+  <definition>
+    <key>mpower_status</key>
+    <value><![CDATA[Status]]></value>
+  </definition>
+  <definition>
+    <key>mpower_note</key>
+    <value><![CDATA[]]></value>
+  </definition>
+  <definition>
+    <key>mpower_private_key</key>
+    <value><![CDATA[Mpower Private Key]]></value>
+  </definition>
+ <definition>
+    <key>mpower_public_key</key>
+    <value><![CDATA[Mpower Public Key]]></value>
+  </definition>
+ <definition>
+    <key>mpower_test_public_key</key>
+    <value><![CDATA[Mpower Test Public Key]]></value>
+  </definition>
+ <definition>
+    <key>mpower_test_private_key</key>
+    <value><![CDATA[Mpower Test Private Key]]></value>
+  </definition>
+ <definition>
+    <key>mpower_master_key</key>
+    <value><![CDATA[Mpower Master Token]]></value>
+  </definition>
+ <definition>
+    <key>mpower_live_token</key>
+    <value><![CDATA[Mpower Live Token]]></value>
+  </definition>
+ <definition>
+    <key>mpower_test_token</key>
+    <value><![CDATA[Mpower Test Token]]></value>
+  </definition>
+ <definition>
+    <key>mpower_test_mode</key>
+    <value><![CDATA[Mpower Test Mode]]></value>
+  </definition>
+
+
+  
+
+
+mpower_test_mode
+mpower_order_status_id
+order_status
+order_status_id
+mpower_location_id
+mpower_redirect_payment
+</definitions>
