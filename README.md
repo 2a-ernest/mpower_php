@@ -1,3 +1,5 @@
+##MPowerPayment for AbanteCart
+
 1. Place Mpower folder into AbanteCart Exntensions folder
 2. Go to extensions in AbanteCart admin view and click install on Mpower to install it
 3. Set values and turn on Mpower extensions
